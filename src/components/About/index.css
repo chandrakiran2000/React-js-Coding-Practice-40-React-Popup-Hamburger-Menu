@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.about-card {
+  height: 100vh;
+  width: 100vw;
+  margin-left: -8px;
+}
+
+.about-img-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .about-logo-sm {
+  }
+
+  .about-logo-lg {
+    display: none;
+  }
+}
+
+@media (min-width: 577px) {
+  .about-logo-sm {
+    display: none;
+  }
+
+  .about-logo-lg {
+    height:;
+    width: 70%;
+  }
+}
+
+.about-logo-sm {
+}
+
+.about-logo-lg {
+}
